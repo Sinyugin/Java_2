@@ -10,7 +10,7 @@ public class MainCircles extends JFrame {
     private static final int WINDOW_HEIGHT = 600; //высота окна
 
     private Sprite[] sprites = new Sprite[1]; // создается массвив из спрайтев
-    private int spritesCount;
+    private int spritesCount; //количество спрайтов
 
     private void update(GameCanvas canvas, float deltaTime) {
         for (int i = 0; i < spritesCount; i++) {
